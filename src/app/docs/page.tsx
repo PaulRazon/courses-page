@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Code, FileText, Palette, Zap, Settings } from "lucide-react";
+import { FileText, Palette, Zap, Settings } from "lucide-react";
 
 const docSections = [
   {

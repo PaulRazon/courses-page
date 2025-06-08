@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Code, ArrowLeft, FileText } from "lucide-react"
+import { ArrowLeft, FileText } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const htmlCommands:any = [

@@ -285,7 +285,7 @@ const ChatBot: React.FC<ChatBotProps> = ({ defaultPosition = "right" }) => {
 
       <div
         ref={chatWindowRef}
-        className={`fixed w-96 h-[550px] p-0 rounded-lg shadow-lg overflow-hidden bg-white border transition-all duration-300 transform ${
+        className={`fixed w-66 sm:w-96 h-[550px] p-0 rounded-lg shadow-lg overflow-hidden bg-white border transition-all duration-300 transform ${
           isOpen
             ? "opacity-100 scale-100 visible"
             : "opacity-0 scale-95 invisible"

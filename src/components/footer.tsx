@@ -117,31 +117,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Comunidad</h3>
-            <ul className="space-y-2 text-slate-300">
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  GitHub
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Discord
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  YouTube
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  LinkedIn
-                </Link>
-              </li>
-            </ul>
-          </div>
+        
         </div>
         <div className="border-t border-slate-800 mt-12 pt-8 text-center text-slate-400">
           <p>

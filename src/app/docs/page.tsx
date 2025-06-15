@@ -33,7 +33,7 @@ const docSections = [
     description: "Configuración y uso de herramientas de desarrollo web.",
     icon: Settings,
     href: "/docs/tools",
-    items: ["VS Code", "Live Server", "DevTools", "Git básico"],
+    items: ["VS Code", "Extensiones", "DevTools"],
   },
 ]
 
@@ -223,7 +223,7 @@ export default function DocsPage() {
                     <span className="text-xs lg:text-sm">Live Server</span>
                   </div>
                 </Button>
-                <Button
+                {/* <Button
                   variant="outline"
                   className="border-slate-600 text-black hover:text-white hover:bg-slate-700 h-auto py-3"
                 >
@@ -240,7 +240,7 @@ export default function DocsPage() {
                     <Settings className="h-5 w-5" />
                     <span className="text-xs lg:text-sm">Node.js</span>
                   </div>
-                </Button>
+                </Button> */}
               </div>
 
               <p className="text-slate-300 mb-6 text-sm lg:text-base">

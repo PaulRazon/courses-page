@@ -62,21 +62,7 @@ export default function Hero() {
             </code>{" "}
             para crear sitios web modernos y responsivos.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 sm:mb-16">
-            <Button
-              size="lg"
-              className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 sm:px-8 py-3 transition-all duration-200 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 w-full sm:w-auto"
-            >
-              Comenzar curso
-            </Button>
-            <div className="relative w-full sm:w-80">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-slate-400" />
-              <Input
-                placeholder="Buscar en el curso"
-                className="pl-10 bg-slate-800/80 backdrop-blur border-slate-700 text-white placeholder-slate-400 w-full hover:bg-slate-800 transition-colors"
-              />
-            </div>
-          </div>
+         
 
           {/* Code Preview with Typing Animation */}
           <div className="bg-slate-800/90 backdrop-blur rounded-lg p-4 sm:p-6 text-left max-w-4xl mx-auto shadow-lg shadow-cyan-500/10 border border-slate-700/50">

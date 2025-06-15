@@ -110,7 +110,7 @@ export default function DocsPage() {
                 </li>
               </ul>
             </section>
-
+{/* 
             <section className="mb-8">
               <h2 className="text-lg font-semibold mb-4 text-white">PRIMEROS PASOS</h2>
               <ul className="space-y-2">
@@ -139,9 +139,9 @@ export default function DocsPage() {
                   </Link>
                 </li>
               </ul>
-            </section>
+            </section> */}
 
-            <section>
+            {/* <section>
               <h2 className="text-lg font-semibold mb-4 text-white">CONCEPTOS BÁSICOS</h2>
               <ul className="space-y-2">
                 <li>
@@ -169,7 +169,7 @@ export default function DocsPage() {
                   </Link>
                 </li>
               </ul>
-            </section>
+            </section> */}
           </nav>
         </aside>
 

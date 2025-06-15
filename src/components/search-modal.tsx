@@ -30,34 +30,34 @@ const searchResults: SearchResult[] = [
     type: "doc",
     icon: <FileText className="h-4 w-4" />,
   },
-  {
-    title: "Propiedades CSS",
-    description: "Guía de selectores y propiedades CSS",
-    href: "/docs/css",
-    type: "doc",
-    icon: <Code className="h-4 w-4" />,
-  },
-  {
-    title: "JavaScript Básico",
-    description: "Fundamentos de JavaScript moderno",
-    href: "/docs/javascript",
-    type: "doc",
-    icon: <Code className="h-4 w-4" />,
-  },
-  {
-    title: "Clase 2: HTML5 Semántico",
-    description: "Introducción al desarrollo web y HTML5",
-    href: "/blog/clase-2",
-    type: "class",
-    icon: <BookOpen className="h-4 w-4" />,
-  },
-  {
-    title: "Clase 3: CSS y Diseño Responsivo",
-    description: "Estilos y diseño responsivo con CSS",
-    href: "/blog/clase-3",
-    type: "class",
-    icon: <BookOpen className="h-4 w-4" />,
-  },
+  // {
+  //   title: "Propiedades CSS",
+  //   description: "Guía de selectores y propiedades CSS",
+  //   href: "/docs/css",
+  //   type: "doc",
+  //   icon: <Code className="h-4 w-4" />,
+  // },
+  // {
+  //   title: "JavaScript Básico",
+  //   description: "Fundamentos de JavaScript moderno",
+  //   href: "/docs/javascript",
+  //   type: "doc",
+  //   icon: <Code className="h-4 w-4" />,
+  // },
+  // {
+  //   title: "Clase 2: HTML5 Semántico",
+  //   description: "Introducción al desarrollo web y HTML5",
+  //   href: "/blog/clase-2",
+  //   type: "class",
+  //   icon: <BookOpen className="h-4 w-4" />,
+  // },
+  // {
+  //   title: "Clase 3: CSS y Diseño Responsivo",
+  //   description: "Estilos y diseño responsivo con CSS",
+  //   href: "/blog/clase-3",
+  //   type: "class",
+  //   icon: <BookOpen className="h-4 w-4" />,
+  // },
 ];
 
 interface SearchModalProps {

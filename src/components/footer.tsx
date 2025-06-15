@@ -25,22 +25,22 @@ export default function Footer() {
                   Clases
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/showcase"
                   className="hover:text-white transition-colors"
                 >
                   Proyectos
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link
                   href="/playground"
                   className="hover:text-white transition-colors"
                 >
                   Playground
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div>
@@ -48,10 +48,10 @@ export default function Footer() {
             <ul className="space-y-2 text-slate-300">
               <li>
                 <Link
-                  href="/blog/clase-1"
+                  href="#"
                   className="hover:text-white transition-colors"
                 >
-                  Clase 1: Encuadre
+                  Clase 0: Encuadre
                 </Link>
               </li>
               <li>
@@ -59,7 +59,7 @@ export default function Footer() {
                   href="/blog/clase-2"
                   className="hover:text-white transition-colors"
                 >
-                  Clase 2: HTML5
+                  Clase 1: HTML5
                 </Link>
               </li>
               <li>
@@ -67,7 +67,7 @@ export default function Footer() {
                   href="/blog/clase-3"
                   className="hover:text-white transition-colors"
                 >
-                  Clase 3: CSS3
+                  Clase 2: CSS3
                 </Link>
               </li>
               <li>
@@ -75,7 +75,7 @@ export default function Footer() {
                   href="/blog/clase-4"
                   className="hover:text-white transition-colors"
                 >
-                  Clase 4: JavaScript
+                  Clase 3: JavaScript
                 </Link>
               </li>
             </ul>

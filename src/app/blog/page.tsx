@@ -10,7 +10,7 @@ const classes = [
     description:
       "Presentación del tema, instructor, objetivos y metodología del curso de desarrollo web.",
     duration: "1 hora",
-    date: "Enero 15, 2025",
+    date: "Junio 16, 2025",
     topics: [
       "Presentación",
       "Objetivos",
@@ -18,64 +18,65 @@ const classes = [
       "Evaluación diagnóstica",
     ],
     slug: "clase-1",
-  },
-  {
-    id: 2,
-    title: "Introducción al Desarrollo Web y HTML5 Semántico",
-    description:
-      "Fundamentos del desarrollo web, instalación de herramientas y estructura básica de HTML5.",
-    duration: "7 horas",
-    date: "Enero 22, 2025",
-    topics: [
-      "¿Qué es el desarrollo web?",
-      "VS Code y extensiones",
-      "Estructura HTML",
-      "Etiquetas semánticas",
-    ],
-    slug: "clase-2",
-  },
-  {
-    id: 3,
-    title: "Estilos y Diseño Responsivo con CSS",
-    description:
-      "Aprende CSS desde lo básico hasta técnicas avanzadas como Flexbox y Grid Layout.",
-    duration: "10 horas",
-    date: "Febrero 5, 2025",
-    topics: [
-      "Selectores CSS",
-      "Modelo de caja",
-      "Flexbox",
-      "Grid Layout",
-      "Media queries",
-    ],
-    slug: "clase-3",
-  },
-  {
-    id: 4,
-    title: "Fundamentos de JavaScript",
-    description:
-      "Introducción a JavaScript, manipulación del DOM y creación de interactividad.",
-    duration: "12 horas",
-    date: "Febrero 19, 2025",
-    topics: [
-      "Variables y tipos",
-      "Estructuras de control",
-      "Funciones",
-      "Eventos",
-      "DOM",
-    ],
-    slug: "clase-4",
-  },
-  {
-    id: 5,
-    title: "Proyecto Final Integrador",
-    description:
-      "Aplicación práctica de todos los conocimientos en un proyecto web completo.",
-    duration: "10 horas",
-    date: "Marzo 5, 2025",
-    topics: ["Planificación", "Desarrollo", "Revisión", "Presentación"],
-    slug: "clase-5",
-  },
+  }
+  // },
+  // {
+  //   id: 2,
+  //   title: "Introducción al Desarrollo Web y HTML5 Semántico",
+  //   description:
+  //     "Fundamentos del desarrollo web, instalación de herramientas y estructura básica de HTML5.",
+  //   duration: "7 horas",
+  //   date: "Enero 22, 2025",
+  //   topics: [
+  //     "¿Qué es el desarrollo web?",
+  //     "VS Code y extensiones",
+  //     "Estructura HTML",
+  //     "Etiquetas semánticas",
+  //   ],
+  //   slug: "clase-2",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Estilos y Diseño Responsivo con CSS",
+  //   description:
+  //     "Aprende CSS desde lo básico hasta técnicas avanzadas como Flexbox y Grid Layout.",
+  //   duration: "10 horas",
+  //   date: "Febrero 5, 2025",
+  //   topics: [
+  //     "Selectores CSS",
+  //     "Modelo de caja",
+  //     "Flexbox",
+  //     "Grid Layout",
+  //     "Media queries",
+  //   ],
+  //   slug: "clase-3",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Fundamentos de JavaScript",
+  //   description:
+  //     "Introducción a JavaScript, manipulación del DOM y creación de interactividad.",
+  //   duration: "12 horas",
+  //   date: "Febrero 19, 2025",
+  //   topics: [
+  //     "Variables y tipos",
+  //     "Estructuras de control",
+  //     "Funciones",
+  //     "Eventos",
+  //     "DOM",
+  //   ],
+  //   slug: "clase-4",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Proyecto Final Integrador",
+  //   description:
+  //     "Aplicación práctica de todos los conocimientos en un proyecto web completo.",
+  //   duration: "10 horas",
+  //   date: "Marzo 5, 2025",
+  //   topics: ["Planificación", "Desarrollo", "Revisión", "Presentación"],
+  //   slug: "clase-5",
+  // },
 ];
 
 export default function BlogPage() {
@@ -95,16 +96,7 @@ export default function BlogPage() {
               módulos y con resúmenes detallados.
             </p>
 
-            {/* Newsletter Subscription */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 max-w-md mx-auto">
-              <Input
-                placeholder="Suscríbete vía email"
-                className="bg-slate-800 border-slate-700 text-white placeholder-slate-400"
-              />
-              <Button className="bg-slate-700 hover:bg-slate-600 text-white px-6">
-                Suscribirse
-              </Button>
-            </div>
+         
           </div>
         </div>
       </div>
@@ -153,7 +145,7 @@ export default function BlogPage() {
               <Link href={`/blog/${classItem.slug}`}>
                 <Button
                   variant="outline"
-                  className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900"
+                  className="border-cyan-400 text-black hover:bg-cyan-400 hover:text-slate-900"
                 >
                   Ver detalles de la clase
                   <ArrowRight className="ml-2 h-4 w-4" />

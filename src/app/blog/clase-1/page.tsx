@@ -654,10 +654,10 @@ export default function HTMLCoursePage() {
                         }`}
                       >
                         <div>
-                          <div className="font-semibold text-sm lg:text-base">
+                          <div className="font-semibold text-sm lg:text-base w-62 truncate">
                             {exercise.title}
                           </div>
-                          <div className="text-xs opacity-70 mt-1 truncate max-w-xs lg:max-w-md">
+                          <div className="text-xs opacity-70 mt-1 truncate w-40">
                             {exercise.description}
                           </div>
                         </div>
